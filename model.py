@@ -42,7 +42,7 @@ def text_detect(img,
     boxes, scores = detect.text_detect(np.array(img))
     boxes = np.array(boxes,dtype=np.float32)
     scores = np.array(scores,dtype=np.float32)
-    textdetector  = TextDetector(MAX_HORIZONTAL_GAP,MIN_V_OVERLAPS,MIN_SIZE_SIM)
+    textdetector = TextDetector(MAX_HORIZONTAL_GAP,MIN_V_OVERLAPS,MIN_SIZE_SIM)    # * 这里的代码应该是使用文本线构造法进行同行合并
     shape = img.shape[:2]
     boxes = textdetector.detect(boxes,
                                 scores[:, np.newaxis],
@@ -88,7 +88,7 @@ def crnnRec(im,boxes,leftAdjust=False,rightAdjust=False,alph=0.2,f=1.0):
 def eval_angle(im,detectAngle=False):
     """
     估计图片偏移角度
-    @@param:im
+    @@param:im 转正以后的图片
     @@param:detectAngle 是否检测文字朝向
     """
     angle = 0

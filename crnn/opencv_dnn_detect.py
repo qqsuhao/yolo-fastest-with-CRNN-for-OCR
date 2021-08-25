@@ -17,7 +17,7 @@ def text_detect(img):
     class_ids = []
     confidences = []
     boxes = []
-    for output in outputs:
+    for output in outputs:              # * 根据置信度门限筛选检测结果
             for detection in output:
                 scores = detection[5:]
                 class_id = np.argmax(scores)

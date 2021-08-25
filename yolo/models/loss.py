@@ -139,7 +139,7 @@ def compute_loss(pred, targets, params):
     tcls, tbox, indices, anchors = build_targets(pred, targets, anchors, strides)
 
     n_scale = len(pred)
-    balance = [4.0, 1.0] if n_scale == 2 else [4.0, 1.0, 0.4]
+    balance = [2.0, 4.0] if n_scale == 2 else [4.0, 1.0, 0.4]
 
     for s, pred_s in enumerate(pred):  # each scale
 
@@ -162,9 +162,9 @@ def compute_loss(pred, targets, params):
             pbox = torch.cat((pxy, pwh), dim=1).to(device)  # predicted box
             iou = bbox_iou(pbox.T, tbox[s], x1y1x2y2=False, CIoU=True)
 
-            # lbox += (1.0 - iou).mean()
-            l1_loss = nn.functional.smooth_l1_loss(pbox, tbox[s], reduction='mean')
-            lbox += l1_loss
+            lbox += (1.0 - iou).mean()
+            # l1_loss = nn.functional.smooth_l1_loss(pbox, tbox[s], reduction='mean')
+            # lbox += l1_loss
 
             # Objectness
             iou_ratio = 0.5
@@ -212,7 +212,7 @@ def build_targets(pred, targets, anchors, strides):
 
         if num_target:
             r = t[:, :, 4:6] / anchor_s[:, None]  # wh ratio
-            j = torch.max(r, 1. / r).max(2)[0] < 4.0
+            j = torch.max(r, 1. / r).max(2)[0] < 2.9
             t = t[j]
 
             # Offsets

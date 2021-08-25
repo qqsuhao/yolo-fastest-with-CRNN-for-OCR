@@ -1,7 +1,7 @@
 import numpy as np
 class Graph:
     def __init__(self, graph):
-        self.graph=graph
+        self.graph=graph        # 二维矩阵
 
     def sub_graphs_connected(self):
         sub_graphs=[]

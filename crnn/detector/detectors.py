@@ -1,10 +1,13 @@
 #coding:utf-8
+'''
+这个目录下的所有的python文件，都是为了完成文本线构造算发
+包括detector.py   text_proposal_connector.py  text_proposal_graph_builder.py
+'''
+
 import numpy as np
 from config import GPUID,GPU,nmsFlag
 from crnn.detector.utils.python_nms import nms as python_nms ##python版本nms
-
 from crnn.detector.text_proposal_connector import TextProposalConnector
-
 
 ##优先加载编译对GPU编译的gpu_nms
 

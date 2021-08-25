@@ -14,6 +14,7 @@ from yolo.utils.augmentations import *
 from yolo.utils.transforms import *
 from yolo.utils.parse_config import *
 from yolo.test import evaluate
+from yolo.utils.plot import *
 
 from terminaltables import AsciiTable
 
@@ -32,18 +33,19 @@ import torch.backends.cudnn as cudnn
 
 
 if __name__ == "__main__":
+    print(os.curdir)
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
     parser.add_argument("--batch_size", type=int, default=2, help="size of each image batch")
     parser.add_argument("--start_epoch", type=int, default=0, help="size of each image batch")
     parser.add_argument("--gradient_accumulations", type=int, default=32, help="number of gradient accums before step")
-    parser.add_argument("--model_def", type=str, default="./configs/yolo-fastest-xl.cfg", help="path to model definition file")
+    parser.add_argument("--model_def", type=str, default="./configs/yolo-fastest-xl-3yolo.cfg", help="path to model definition file")
     parser.add_argument("--data_config", type=str, default="./data/VOCdevkit/VOC2007/voc.data", help="path to data config file")
     parser.add_argument("--pretrained_weights", type=str, default="./weights/yolo-fastest-xl.weights", help="if specified starts from checkpoint model")  # , default="weights/yolo-fastest-xl.weights"
-    parser.add_argument("--n_cpu", type=int, default=0, help="number of cpu threads to use during batch generation")
+    parser.add_argument("--n_cpu", type=int, default=12, help="number of cpu threads to use during batch generation")
     parser.add_argument("--img_size", type=int, default=608, help="size of each image dimension")
     parser.add_argument("--checkpoint_interval", type=int, default=1, help="interval between saving model weights")
-    parser.add_argument("--evaluation_interval", type=int, default=1, help="interval evaluations on validation set")
+    parser.add_argument("--evaluation_interval", type=int, default=10, help="interval evaluations on validation set")
     parser.add_argument("--compute_map", default=False, help="if True computes mAP every tenth batch")
     parser.add_argument("--multiscale_training", default=True, help="allow for multi-scale training")
     parser.add_argument("--verbose", "-v", default=False, action='store_true', help="Makes the training more verbose")
@@ -103,7 +105,7 @@ if __name__ == "__main__":
     )
 
     optimizer = torch.optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), lr=lr)            # Adam优化器
-    scheduler = lr_scheduler.StepLR(optimizer, step_size=50, gamma=0.95)
+    scheduler = lr_scheduler.StepLR(optimizer, step_size=100, gamma=0.8)
     scheduler.last_epoch = opt.start_epoch - 1
 
     scaler = amp.GradScaler(enabled=True)
@@ -142,7 +144,7 @@ if __name__ == "__main__":
         pbar = tqdm.tqdm(dataloader, desc=f"Training Epoch {epoch}")
         for batch_i, (_, imgs, targets) in enumerate(pbar):
             batches_done = len(dataloader) * epoch + batch_i
-
+            # plot_imgs_boxes(batch_i, imgs.numpy(), targets.numpy(), path="./cache/")
             imgs = imgs.to(device)
             targets = targets.to(device)
 
@@ -158,7 +160,7 @@ if __name__ == "__main__":
             outputs = model(imgs)
             _, loss = Loss(outputs, targets)
             # print(loss.detach().to("cpu").item())
-            # loss.backward()
+            loss.backward()
             # scaler.scale(loss).backward()
 
             if batches_done % opt.gradient_accumulations == 0:      # 梯度累加

@@ -1,118 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78960c3d-3ba7-40a5-bd7f-b0d11aa67dc1" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="78960c3d-3ba7-40a5-bd7f-b0d11aa67dc1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yolov3-ocr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yolov3-ocr.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apphelper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apphelper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apphelper/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/apphelper/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/100.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/100.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/37.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/40.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/40.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/41.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/42.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/43.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/43.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/44.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/45.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/49.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/49.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/51.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/51.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/52.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/52.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/53.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/55.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/57.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/57.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/60.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/62.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/62.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/63.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/63.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/64.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/65.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/65.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/66.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/66.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/67.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/69.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/70.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/70.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/71.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/73.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/73.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/74.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/74.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/77.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/77.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/78.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/78.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/79.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/79.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/80.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/80.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/81.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/82.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/83.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/83.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/84.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/85.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/85.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/86.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/86.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/87.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/87.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/89.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/89.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/90.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/90.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/91.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/91.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/92.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/92.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/93.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/93.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/94.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/95.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/95.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/96.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/97.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/97.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/98.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/data/text/0/99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/data/text/0/99.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/detectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/detectors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/text_proposal_connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/text_proposal_connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/text_proposal_graph_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/text_proposal_graph_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/cython_nms.c" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/cython_nms.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/cython_nms.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/cython_nms.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.c" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/gpu_nms.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/make-for-cpu.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/make-for-cpu.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/make-for-cpu.sh" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/make-for-cpu.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/make.sh" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/make.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/nms_kernel.cu" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/nms_kernel.cu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/python_nms.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/python_nms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/setup_cpu.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/setup_cpu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/detector/utils/setup_cpu_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/utils/setup_cpu_win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/models/crnn_torch.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/models/crnn_torch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/models/network_torch.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/models/network_torch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/opencv_dnn_detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/opencv_dnn_detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/utils/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/utils/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/utils/generic_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/utils/generic_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/utils/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/utils/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/utils/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/utils/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crnn/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/Toonnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/Toonnx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/checkpoints/yolov3_ckpt_0.pth" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/checkpoints/yolov3_ckpt_0.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/configs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/configs/yolo-fastest.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/configs/yolo-fastest.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.data" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.name" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/data-ready.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/data-ready.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/gen_anchors.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/gen_anchors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/100.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/100.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/27.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/33.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/35.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/35.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/37.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/39.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/39.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/40.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/40.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/41.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/42.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/42.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/43.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/43.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/44.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/44.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/45.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/48.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/49.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/49.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/50.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/50.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/51.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/51.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/52.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/52.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/53.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/54.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/54.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/55.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/55.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/56.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/56.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/57.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/57.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/60.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/62.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/62.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/63.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/63.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/64.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/65.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/65.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/66.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/66.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/67.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/68.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/68.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/69.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/69.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/70.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/70.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/71.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/71.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/72.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/73.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/73.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/74.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/74.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/76.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/77.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/77.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/78.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/78.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/79.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/79.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/80.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/80.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/81.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/81.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/82.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/83.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/83.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/84.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/84.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/85.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/85.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/86.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/86.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/87.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/87.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/89.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/89.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/90.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/90.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/91.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/91.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/92.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/92.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/93.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/93.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/94.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/95.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/95.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/96.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/96.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/97.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/97.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/98.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/data/samples/text/0/99.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/samples/text/0/99.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/models/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/models/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/models/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/augmentations.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/augmentations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/parse_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/parse_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/utils/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/yolov3_ocr$test.coverage" NAME="test Coverage Results" MODIFIED="1629805327252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo" />
     <SUITE FILE_PATH="coverage/yolov3_ocr$data_ready.coverage" NAME="data-ready Coverage Results" MODIFIED="1629463449944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo/data" />
-    <SUITE FILE_PATH="coverage/yolov3_ocr$gen_anchors.coverage" NAME="gen_anchors Coverage Results" MODIFIED="1629463263562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo/data" />
     <SUITE FILE_PATH="coverage/yolov3_ocr$model.coverage" NAME="model Coverage Results" MODIFIED="1629544406029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo/models" />
+    <SUITE FILE_PATH="coverage/yolov3_ocr$gen_anchors.coverage" NAME="gen_anchors Coverage Results" MODIFIED="1629810554363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo/data" />
+    <SUITE FILE_PATH="coverage/yolov3_ocr$detect.coverage" NAME="detect Coverage Results" MODIFIED="1629880490482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo" />
     <SUITE FILE_PATH="coverage/yolov3_ocr$text_train.coverage" NAME="text-train Coverage Results" MODIFIED="1629462012355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo/data" />
-    <SUITE FILE_PATH="coverage/yolov3_ocr$demo.coverage" NAME="demo Coverage Results" MODIFIED="1629558198748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yolov3_ocr$train.coverage" NAME="train Coverage Results" MODIFIED="1629551278194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crnn/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-819">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="e#95#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#312#505#0" />
-                <element signature="e#560#1585#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-670">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crnn/opencv_dnn_detect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crnn/detector/detectors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crnn/detector/text_proposal_connector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crnn/models/crnn_torch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <SUITE FILE_PATH="coverage/yolov3_ocr$demo.coverage" NAME="demo Coverage Results" MODIFIED="1629720181335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov3_ocr$train.coverage" NAME="train Coverage Results" MODIFIED="1629881156325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/yolo" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,6 +295,9 @@
       <find>criterion</find>
       <find>YOLO_Kmeans</find>
       <find>angleNet</find>
+      <find>classes</find>
+      <find>80</find>
+      <find>3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,43 +309,50 @@
       <list>
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/yolo/data/text.data" />
-        <option value="$PROJECT_DIR$/yolo/models/loss.py" />
         <option value="$PROJECT_DIR$/rcnn/crnn_torch.py" />
         <option value="$PROJECT_DIR$/rcnn/models/utils.py" />
         <option value="$PROJECT_DIR$/rcnn/models/keys.py" />
         <option value="$PROJECT_DIR$/rcnn/models/network_torch.py" />
         <option value="$PROJECT_DIR$/rcnn/models/crnn_torch.py" />
         <option value="$PROJECT_DIR$/yolo/data/text-train.py" />
-        <option value="$PROJECT_DIR$/yolo/data/gen_anchors.py" />
         <option value="$PROJECT_DIR$/rcnn/config.py" />
         <option value="$PROJECT_DIR$/yolo/__init__.py" />
         <option value="$PROJECT_DIR$/yolo/models/__init__.py" />
-        <option value="$PROJECT_DIR$/yolo/detect.py" />
         <option value="$PROJECT_DIR$/yolo/Toonnx.py" />
         <option value="$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.data" />
         <option value="$PROJECT_DIR$/yolo/models/model.py" />
         <option value="$PROJECT_DIR$/yolo/utils/datasets.py" />
         <option value="$PROJECT_DIR$/yolo/data/data-ready.py" />
-        <option value="$PROJECT_DIR$/yolo/test.py" />
-        <option value="$PROJECT_DIR$/yolo/configs/yolo-fastest.cfg" />
-        <option value="$PROJECT_DIR$/yolo/train.py" />
-        <option value="$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg" />
         <option value="$PROJECT_DIR$/rcnn/train.py" />
-        <option value="$PROJECT_DIR$/crnn/detector/detectors.py" />
         <option value="$PROJECT_DIR$/crnn/detector/text_proposal_connector.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/crnn/opencv_dnn_detect.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/crnn/detector/detectors.py" />
+        <option value="$PROJECT_DIR$/yolo/test.py" />
+        <option value="$PROJECT_DIR$/crnn/detector/text_proposal_graph_builder.py" />
+        <option value="$PROJECT_DIR$/weights/text.names" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/yolo/configs/yolo-fastest.cfg" />
+        <option value="$PROJECT_DIR$/yolo/utils/plot.py" />
+        <option value="$PROJECT_DIR$/weights/text.data" />
+        <option value="$PROJECT_DIR$/yolo/data/gen_anchors.py" />
+        <option value="$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg" />
+        <option value="$PROJECT_DIR$/yolo/detect.py" />
+        <option value="$PROJECT_DIR$/yolo/configs/yolo-fastest-xl-3yolo.cfg" />
+        <option value="$PROJECT_DIR$/yolo/train.py" />
+        <option value="$PROJECT_DIR$/yolo/models/loss.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="77" />
-    <option name="width" value="1428" />
-    <option name="height" value="926" />
+    <option name="x" value="467" />
+    <option name="y" value="38" />
+    <option name="width" value="1156" />
+    <option name="height" value="917" />
   </component>
+  <component name="ProjectId" id="1xDTSy0GGJeEUqCjL2HAWgIAsMU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -194,28 +372,69 @@
             <path>
               <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="crnn" type="462c0819:PsiDirectoryNode" />
+              <item name="weights" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="crnn" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="crnn" type="462c0819:PsiDirectoryNode" />
-              <item name="detector" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="test_samples" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="VOCdevkit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
               <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="VOCdevkit" type="462c0819:PsiDirectoryNode" />
+              <item name="VOC2007" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yolov3-ocr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yolov3-ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="yolo" type="462c0819:PsiDirectoryNode" />
               <item name="weights" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -224,62 +443,33 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Git/bin/git.exe" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\硕士\目标检测\yolov3-ocr\yolo\configs" />
+      <recent name="D:\硕士\目标检测\yolov3-ocr\yolo\data\samples" />
+      <recent name="D:\硕士\目标检测\yolov3-ocr\test_samples" />
+      <recent name="D:\硕士\目标检测\yolov3-ocr\weights" />
+      <recent name="D:\硕士\目标检测\yolov3-ocr" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\硕士\目标检测\yolov3-ocr" />
       <recent name="D:\硕士\目标检测\yolov3-ocr\rcnn\utils" />
       <recent name="D:\硕士\目标检测\yolov3-ocr\rcnn\models" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\硕士\目标检测\yolov3-ocr\weights" />
-      <recent name="D:\硕士\目标检测\yolov3-ocr" />
-      <recent name="D:\硕士\目标检测\yolov3-ocr\crnn" />
-      <recent name="D:\硕士\目标检测\yolov3-ocr\rcnn" />
-      <recent name="D:\硕士\目标检测\yolov3-ocr\yolo\utils" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.demo">
-    <configuration name="data-ready" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolov3-ocr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yolo/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo/data/data-ready.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.train">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolov3-ocr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,6 +484,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="detect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yolov3-ocr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yolo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo/detect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,7 +536,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="yolov3-ocr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,12 +544,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yolo/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/yolo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo/models/model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yolo/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,22 +581,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.gen_anchors" />
-      <item itemvalue="Python.data-ready" />
       <item itemvalue="Python.train" />
-      <item itemvalue="Python.model" />
       <item itemvalue="Python.demo" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.detect" />
+      <item itemvalue="Python.gen_anchors" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo" />
         <item itemvalue="Python.train" />
-        <item itemvalue="Python.model" />
-        <item itemvalue="Python.data-ready" />
+        <item itemvalue="Python.detect" />
         <item itemvalue="Python.gen_anchors" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -396,11 +609,12 @@
       <option name="presentableId" value="Default" />
       <updated>1629450301735</updated>
       <workItem from="1629450303126" duration="22029000" />
+      <workItem from="1629558940315" duration="55730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22029000" />
+    <option name="totallyTimeSpent" value="77759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,232 +626,209 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="53" width="1428" height="926" extended-state="0" />
+    <frame x="299" y="33" width="1156" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24635036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3294271" />
-      <window_info anchor="bottom" id="Python Console" weight="0.2109375" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.41927084" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24869792" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26482213" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4766147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287841" />
-      <window_info anchor="right" id="SciView" weight="0.27807486" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328125" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294271" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.41796875" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.454343" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.46715328" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/yolo/utils/datasets.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/yolo/detect.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/yolo/train.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/crnn/detector/detectors.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yolo/utils/utils.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yolo/utils/plot.py">
+    <entry file="file://$PROJECT_DIR$/crnn/detector/utils/python_nms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="21">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apphelper/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2469">
+          <caret line="460" column="4" selection-start-line="460" selection-start-column="4" selection-end-line="460" selection-end-column="4" />
+          <folding>
+            <element signature="e#56#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/text/0/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="82" column="80" selection-start-line="82" selection-start-column="59" selection-end-line="82" selection-end-column="80" />
           <folding>
             <element signature="e#95#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#36#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/utils/keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/utils/generic_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
-          <caret line="134" column="44" selection-start-line="134" selection-start-column="44" selection-end-line="134" selection-end-column="44" />
-          <folding>
-            <element signature="e#138#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/models/network_torch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/utils/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/utils/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#37#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/text-train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="262" column="37" lean-forward="true" selection-start-line="262" selection-start-column="37" selection-end-line="262" selection-end-column="37" />
-          <folding>
-            <element signature="e#102#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/gen_anchors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#63#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/JPEGImages/gt_302.jpg">
+    <entry file="file://$PROJECT_DIR$/yolo/output/7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.name">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/yolo/output/6.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test_samples/0.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test_samples/img.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/0.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/utils/parse_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/detect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/utils/transforms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/3.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#97#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/5.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/Toonnx.py">
+    <entry file="file://$PROJECT_DIR$/yolo/data/samples/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/text.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/models/model.py">
+    <entry file="file://$PROJECT_DIR$/crnn/detector/text_proposal_connector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="294" column="13" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="13" />
+        <state relative-caret-position="162">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
-            <element signature="e#96#117#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/JPEGImages/gt_8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_0.txt">
+    <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378" />
-      </provider>
-    </entry>
-    <entry file="file://F:/python/pytorch-env/Lib/site-packages/torch/utils/data/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="516" selection-start-line="516" selection-end-line="516" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/data-ready.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="177" column="17" lean-forward="true" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
-            <element signature="e#55#73#0" expanded="true" />
+            <element signature="e#95#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/train.txt">
+    <entry file="file://$PROJECT_DIR$/crnn/detector/detectors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="-735">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+          <folding>
+            <element signature="e#130#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/utils/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="913" selection-start-line="913" selection-end-line="913" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weights/text.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weights/text.names">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -646,164 +837,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yolo/utils/datasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+        <state relative-caret-position="612">
+          <caret line="124" column="57" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="57" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/voc.data">
+    <entry file="file://$PROJECT_DIR$/yolo/models/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="80">
+          <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
           <folding>
-            <element signature="e#95#126#0" expanded="true" />
+            <element signature="e#96#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest.cfg">
+    <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest-xl-8.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="913" column="6" selection-start-line="913" selection-start-column="6" selection-end-line="913" selection-end-column="6" />
+        <state relative-caret-position="-13668">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_33.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_66.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2712" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_137.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_201.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_219.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_252.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_270.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_285.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/VOCdevkit/VOC2007/labels/gt_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/python/pytorch-env/Lib/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="888" selection-start-line="888" selection-end-line="888" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/data/gen_anchors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2274">
+          <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/output/5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/output/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/output/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/output/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/output/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/output/0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10195">
+          <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest-xl-3yolo.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yolo/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+        <state relative-caret-position="405">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <element signature="e#96#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yolo/configs/yolo-fastest-xl.cfg">
+    <entry file="file://$PROJECT_DIR$/weights/text.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="987">
+          <caret line="778" column="9" selection-start-line="778" selection-start-column="9" selection-end-line="778" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/detector/utils/make.sh">
+    <entry file="file://$PROJECT_DIR$/yolo/detect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/detector/text_proposal_connector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/img.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/line.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/train-demo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/line-demo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/img-demo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/demo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_samples/idcard-demo.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://F:/python/pytorch-env/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="63">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
-            <element signature="e#95#107#0" expanded="true" />
+            <element signature="e#97#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apphelper/image.py">
+    <entry file="file://$PROJECT_DIR$/yolo/models/loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="460" column="4" selection-start-line="460" selection-start-column="4" selection-end-line="460" selection-end-column="4" />
-          <folding>
-            <element signature="e#56#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/models/crnn_torch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/opencv_dnn_detect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#312#505#0" />
-            <element signature="e#560#1585#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-670">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crnn/detector/detectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="164">
+          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
         </state>
       </provider>
     </entry>

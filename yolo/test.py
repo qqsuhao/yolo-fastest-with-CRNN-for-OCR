@@ -9,7 +9,7 @@ from yolo.models.model import YOLOv3
 from yolo.models.loss import YOLOLoss_total
 from yolo.utils.utils import *
 from yolo.utils.datasets import *
-from .utils.augmentations import *
+from yolo.utils.augmentations import *
 from yolo.utils.transforms import *
 from yolo.utils.parse_config import *
 
@@ -76,16 +76,16 @@ def evaluate(model, Loss, path, iou_thres, conf_thres, nms_thres, img_size, batc
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", type=int, default=20, help="size of each image batch")
-    parser.add_argument("--model_def", type=str, default="configs/yolov3-tiny.cfg", help="path to model definition file")
-    parser.add_argument("--data_config", type=str, default="data/coco.data", help="path to data config file")
-    parser.add_argument("--weights_path", type=str, default="weights/tiny-loss35.pth", help="path to weights file")
-    parser.add_argument("--class_path", type=str, default="data/coco.names", help="path to class label file")
+    parser.add_argument("--batch_size", type=int, default=1, help="size of each image batch")
+    parser.add_argument("--model_def", type=str, default="../weights/text.cfg", help="path to model definition file")
+    parser.add_argument("--data_config", type=str, default="./data/VOCdevkit/VOC2007/voc.data", help="path to data config file")
+    parser.add_argument("--weights_path", type=str, default="../weights/text.weights", help="path to weights file")
+    parser.add_argument("--class_path", type=str, default="../weights/text.names", help="path to class label file")
     parser.add_argument("--iou_thres", type=float, default=0.5, help="iou threshold required to qualify as detected")
     parser.add_argument("--conf_thres", type=float, default=0.001, help="object confidence threshold")
     parser.add_argument("--nms_thres", type=float, default=0.5, help="iou thresshold for non-maximum suppression")
     parser.add_argument("--n_cpu", type=int, default=8, help="number of cpu threads to use during batch generation")
-    parser.add_argument("--img_size", type=int, default=416, help="size of each image dimension")
+    parser.add_argument("--img_size", type=int, default=608, help="size of each image dimension")
     opt = parser.parse_args()
     print(opt)
 

@@ -111,5 +111,5 @@ class YOLO_Kmeans:
 if __name__ == "__main__":
     root = './samples/text/*/*.[j|p|J]*'
     splitW = 8  ##文本分割最小宽度
-    cluster = YOLO_Kmeans(cluster_number=6, root=root, scales=[416, 512, 608, 608, 608, 768, 960, 1024], splitW=splitW)
+    cluster = YOLO_Kmeans(cluster_number=3, root=root, scales=[416, 512, 608, 608, 608, 768, 960, 1024], splitW=splitW)
     print(cluster.anchors)

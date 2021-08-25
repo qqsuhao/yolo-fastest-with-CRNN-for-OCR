@@ -31,6 +31,6 @@ def plot_imgs_boxes(batch_i, imgs, targets, path="../cache/"):
             h = targets[mask, :][j, 5] * img_size
             x = targets[mask, :][j, 2] * img_size - w / 2
             y = targets[mask, :][j, 3] * img_size - h / 2
-            ax.add_patch(patches.Rectangle((x, y), w, h, edgecolor="red", linewidth=2, fill=False))
+            ax.add_patch(patches.Rectangle((x, y), w, h, edgecolor="red", linewidth=0.3, fill=False))
     plt.savefig(os.path.join(path, str(batch_i)+".jpg"))
     plt.close()

@@ -23,7 +23,7 @@ def plot_box(img,boxes):
     return Image.fromarray(tmp)
 
 
-def plot_boxes(img,angle, result,color=(0,0,0)):
+def plot_boxes(img,angle, result,color=(255,255,255)):
     tmp = np.array(img)
     c = color
     h,w = img.shape[:2]
@@ -52,7 +52,7 @@ def plot_boxes(img,angle, result,color=(0,0,0)):
         cv2.line(tmp,(int(x3),int(y3)),(int(x4),int(y4)),c,1)
         cv2.line(tmp,(int(x4),int(y4)),(int(x1),int(y1)),c,1)
         mess=str(i)
-        cv2.putText(tmp, mess, (int(cx), int(cy)),0, 1e-3 * h, c, thick // 2)
+        cv2.putText(tmp, mess, (int(cx), int(cy)),0, 1e-3 * h, c, thick)
         i+=1
     return Image.fromarray(tmp).convert('RGB')
 
@@ -60,7 +60,7 @@ def plot_boxes(img,angle, result,color=(0,0,0)):
 if __name__ == "__main__":
     GPUID='0'##调用GPU序号
     os.environ["CUDA_VISIBLE_DEVICES"] = GPUID
-    p = './test_samples/img.jpeg'
+    p = './test_samples/2.jpg'
     img = cv2.imread(p)
     h,w = img.shape[:2]
     timeTake = time.time()
@@ -82,8 +82,9 @@ if __name__ == "__main__":
     for line in result:
         print(line['text'])
     out = plot_boxes(img, angle, result, color=(0,0,0))
+    out = np.array(out)
     plt.figure()
-    plt.imshow(out)
+    plt.imshow(out[:, :, [2, 1, 0]])
     plt.xticks([])
     plt.yticks([])
     plt.show()
