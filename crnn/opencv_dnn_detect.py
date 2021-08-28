@@ -7,21 +7,35 @@ import cv2
 
 
 def text_detect(img):
-    textNet  = cv2.dnn.readNetFromDarknet(yoloCfg, yoloWeights)##文字定位
-    thresh = 0
+    if yoloWeights.endswith("onnx"):
+        textNet = cv2.dnn.readNetFromONNX(yoloWeights)
+    else:
+        textNet  = cv2.dnn.readNetFromDarknet(yoloCfg, yoloWeights)##文字定位
+    thresh = 0.1
     img_height,img_width = img.shape[:2]
     inputBlob = cv2.dnn.blobFromImage(img, scalefactor=1.0, size=IMGSIZE,swapRB=True ,crop=False);
     textNet.setInput(inputBlob/255.0)
     outputName = textNet.getUnconnectedOutLayersNames()
     outputs = textNet.forward(outputName)
+    if yoloWeights.endswith("onnx"):
+        out = []
+        for i in range(len(outputs)):
+            tmp = cv2.dnn.imagesFromBlob(outputs[i])[0]
+            tmp[:, [0, 2]] = tmp[:, [0, 4]] / img_width
+            tmp[:, [1, 3]] = tmp[:, [1, 3]] / img_height
+            out.append(tmp)
+        outputs = out
     class_ids = []
     confidences = []
     boxes = []
     for output in outputs:              # * 根据置信度门限筛选检测结果
             for detection in output:
-                scores = detection[5:]
-                class_id = np.argmax(scores)
-                confidence = scores[class_id]
+                # scores = detection[5:]
+                # class_id = np.argmax(scores)
+                # confidence = scores[class_id]
+                scores = detection[4]
+                confidence = scores
+                class_id = np.argmax(detection[5:])
                 if confidence > thresh:
                     center_x = int(detection[0] * img_width)
                     center_y = int(detection[1] * img_height)
@@ -29,6 +43,10 @@ def text_detect(img):
                     height = int(detection[3] * img_height)
                     left = int(center_x - width / 2)
                     top = int(center_y - height / 2)
+                    if left + width > img_width-1:
+                        left = img_width-1-width
+                    if top + height > img_height-1:
+                        top = img_height-1-height
                     if class_id==1:
                         class_ids.append(class_id)
                         confidences.append(float(confidence))

@@ -36,7 +36,7 @@ def evaluate(model, Loss, path, iou_thres, conf_thres, nms_thres, img_size, batc
         dataset,
         batch_size=batch_size,
         shuffle=False,
-        num_workers=0,
+        num_workers=12,
         collate_fn=dataset.collate_fn
     )
 
@@ -76,10 +76,10 @@ def evaluate(model, Loss, path, iou_thres, conf_thres, nms_thres, img_size, batc
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", type=int, default=1, help="size of each image batch")
-    parser.add_argument("--model_def", type=str, default="../weights/text.cfg", help="path to model definition file")
+    parser.add_argument("--batch_size", type=int, default=8, help="size of each image batch")
+    parser.add_argument("--model_def", type=str, default="./configs/yolo-fastest-xl-3yolo.cfg", help="path to model definition file")
     parser.add_argument("--data_config", type=str, default="./data/VOCdevkit/VOC2007/voc.data", help="path to data config file")
-    parser.add_argument("--weights_path", type=str, default="../weights/text.weights", help="path to weights file")
+    parser.add_argument("--weights_path", type=str, default="./checkpoints/yolov3_ckpt_70.pth", help="path to weights file")
     parser.add_argument("--class_path", type=str, default="../weights/text.names", help="path to class label file")
     parser.add_argument("--iou_thres", type=float, default=0.5, help="iou threshold required to qualify as detected")
     parser.add_argument("--conf_thres", type=float, default=0.001, help="object confidence threshold")

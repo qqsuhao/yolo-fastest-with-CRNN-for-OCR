@@ -13,7 +13,8 @@ kerasTextModel=os.path.join(pwd,"weights","text.h5")##keras版本模型权重文
 ############## darknet yolo  ##############
 darknetRoot = os.path.join(os.path.curdir,"darknet")## yolo 安装目录
 yoloCfg     = os.path.join(pwd,"weights","text.cfg")
-yoloWeights = os.path.join(pwd,"weights","text.weights")
+# yoloWeights = os.path.join(pwd,"weights","text.weights")
+yoloWeights = "yolo/weights/yolo-fastest-xl-3yolo.onnx"
 yoloData    = os.path.join(pwd,"weights","text.data")
 ############## darknet yolo  ##############
 

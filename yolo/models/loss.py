@@ -160,15 +160,16 @@ def compute_loss(pred, targets, params):
             pxy = ps[:, :2] * 2. - 0.5
             pwh = (ps[:, 2:4] * 2) ** 2 * anchors[s]
             pbox = torch.cat((pxy, pwh), dim=1).to(device)  # predicted box
-            iou = bbox_iou(pbox.T, tbox[s], x1y1x2y2=False, CIoU=True)
+            # iou = bbox_iou(pbox.T, tbox[s], x1y1x2y2=False, CIoU=True)
 
-            lbox += (1.0 - iou).mean()
-            # l1_loss = nn.functional.smooth_l1_loss(pbox, tbox[s], reduction='mean')
-            # lbox += l1_loss
+            # lbox += (1.0 - iou).mean()
+            l1_loss = nn.functional.smooth_l1_loss(pbox, tbox[s], reduction='mean')
+            lbox += l1_loss
 
             # Objectness
-            iou_ratio = 0.5
-            tobj[b, a, gj, gi] = (1.0 - iou_ratio) + iou_ratio * iou.detach().clamp(0).type(tobj.dtype)
+            # iou_ratio = 0.5
+            # tobj[b, a, gj, gi] = (1.0 - iou_ratio) + iou_ratio * iou.detach().clamp(0).type(tobj.dtype)
+            tobj[b, a, gj, gi] = 1
 
             # Classification
             if num_out - 5 > 1:  # only if multiple classes
@@ -211,8 +212,9 @@ def build_targets(pred, targets, anchors, strides):
         anchor_s = anchors[s] / stride
 
         if num_target:
-            r = t[:, :, 4:6] / anchor_s[:, None]  # wh ratio
-            j = torch.max(r, 1. / r).max(2)[0] < 2.9
+            # r = t[:, :, 4:6] / anchor_s[:, None]  # wh ratio
+            r = t[:, :, 5:6] / anchor_s[:, None, 1:2]
+            j = torch.max(r, 1. / r).max(2)[0] < 2.0
             t = t[j]
 
             # Offsets

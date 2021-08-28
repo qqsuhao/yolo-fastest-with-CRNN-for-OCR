@@ -85,7 +85,10 @@ class TextProposalGraphBuilder:
         boxes_table=[[] for _ in range(self.im_size[1])]
         for index, box in enumerate(text_proposals):
             #print(int(box[0]),len(boxes_table))
-            boxes_table[int(box[0])].append(index)
+            a = int(box[0])
+            if a < 0: a = 0
+            if a > self.im_size[0] -1: a = self.im_size[0] - 1
+            boxes_table[a].append(index)
         self.boxes_table=boxes_table
 
         graph=np.zeros((text_proposals.shape[0], text_proposals.shape[0]), np.bool)

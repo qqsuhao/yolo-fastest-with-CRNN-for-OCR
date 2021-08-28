@@ -76,6 +76,7 @@ def crnnRec(im,boxes,leftAdjust=False,rightAdjust=False,alph=0.2,f=1.0):
    for index,box in enumerate(boxes):
        degree,w,h,cx,cy = solve(box)
        partImg,newW,newH = rotate_cut_img(im,degree,box,w,h,leftAdjust,rightAdjust,alph)
+       if newW < 6.0: continue
        text = crnnOcr(partImg.convert('L'))
        if text.strip()!=u'':
             results.append({'cx':cx*f,'cy':cy*f,'text':text,'w':newW*f,'h':newH*f,'degree':degree*180.0/np.pi})

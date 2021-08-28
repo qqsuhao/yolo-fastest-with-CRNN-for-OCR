@@ -347,6 +347,7 @@ def solve(box):
      h = (np.sqrt((x2-x3)**2+(y2-y3)**2)+np.sqrt((x1-x4)**2+(y1-y4)**2))/2   
 
      sinA = (h*(x1-cx)-w*(y1 -cy))*1.0/(h*h+w*w)*2
+     if abs(sinA) > 1: sinA=1 if sinA > 0 else -1
      angle = np.arcsin(sinA)
      return angle,w,h,cx,cy
     

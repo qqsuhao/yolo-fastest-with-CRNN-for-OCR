@@ -35,13 +35,13 @@ import torch.backends.cudnn as cudnn
 if __name__ == "__main__":
     print(os.curdir)
     parser = argparse.ArgumentParser()
-    parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
-    parser.add_argument("--batch_size", type=int, default=2, help="size of each image batch")
+    parser.add_argument("--epochs", type=int, default=70, help="number of epochs")
+    parser.add_argument("--batch_size", type=int, default=4, help="size of each image batch")
     parser.add_argument("--start_epoch", type=int, default=0, help="size of each image batch")
-    parser.add_argument("--gradient_accumulations", type=int, default=32, help="number of gradient accums before step")
+    parser.add_argument("--gradient_accumulations", type=int, default=16, help="number of gradient accums before step")
     parser.add_argument("--model_def", type=str, default="./configs/yolo-fastest-xl-3yolo.cfg", help="path to model definition file")
     parser.add_argument("--data_config", type=str, default="./data/VOCdevkit/VOC2007/voc.data", help="path to data config file")
-    parser.add_argument("--pretrained_weights", type=str, default="./weights/yolo-fastest-xl.weights", help="if specified starts from checkpoint model")  # , default="weights/yolo-fastest-xl.weights"
+    parser.add_argument("--pretrained_weights", type=str, default="./checkpoints/yolov3_ckpt_20.pth", help="if specified starts from checkpoint model")  # , default="weights/yolo-fastest-xl.weights"
     parser.add_argument("--n_cpu", type=int, default=12, help="number of cpu threads to use during batch generation")
     parser.add_argument("--img_size", type=int, default=608, help="size of each image dimension")
     parser.add_argument("--checkpoint_interval", type=int, default=1, help="interval between saving model weights")

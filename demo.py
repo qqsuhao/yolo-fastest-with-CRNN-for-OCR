@@ -69,8 +69,8 @@ if __name__ == "__main__":
                                 config=dict(MAX_HORIZONTAL_GAP=50,##字符之间的最大间隔，用于文本行的合并
                                             MIN_V_OVERLAPS=0.6,
                                             MIN_SIZE_SIM=0.6,
-                                            TEXT_PROPOSALS_MIN_SCORE=0.1,
-                                            TEXT_PROPOSALS_NMS_THRESH=0.3,
+                                            TEXT_PROPOSALS_MIN_SCORE=0.6,
+                                            TEXT_PROPOSALS_NMS_THRESH=0.2,
                                             TEXT_LINE_NMS_THRESH = 0.7,##文本行之间测iou值
                                             ),
                                 leftAdjust=True,##对检测的文本行进行向左延伸

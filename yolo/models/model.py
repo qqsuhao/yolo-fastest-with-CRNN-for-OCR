@@ -119,7 +119,7 @@ class YOLOLayer(nn.Module):
         inputs_sigmoid = inputs_view.sigmoid()
         x = inputs_sigmoid[..., 0] * 2.0 - 0.5
         y = inputs_sigmoid[..., 1] * 2.0 - 0.5
-        w = (inputs_sigmoid[..., 2] * 2.0) ** 2
+        w = (inputs_sigmoid[..., 2] * 2.0) ** 2 #torch.sigmoid(inputs_sigmoid[..., 2] + 1000) #torch.ones_like(inputs_sigmoid[..., 2]) #(inputs_sigmoid[..., 2] * 2.0) ** 2
         h = (inputs_sigmoid[..., 3] * 2.0) ** 2
         pred = inputs_sigmoid[..., 4:]
         FloatTensor = torch.cuda.FloatTensor if inputs.is_cuda else torch.FloatTensor
@@ -292,6 +292,9 @@ if __name__ == "__main__":
     '''
     测试model.py
     '''
+    '''
+    测试model.py
+    '''
     from yolo.utils.utils import *
 
     conifg_path = "../configs/yolo-fastest.cfg"
@@ -319,17 +322,6 @@ if __name__ == "__main__":
     #检查IR是否良好
     onnx.checker.check_model(model)
 
-    # 添加 ExpLayer
-    class ExpLayer(object):
-        def __init__(self, params, blobs):
-            super(ExpLayer, self).__init__()
-
-        def getMemoryShapes(self, inputs):
-            return inputs
-
-        def forward(self, inputs):
-            return [np.exp(inputs[0])]
-    cv2.dnn_registerLayer('Exp', ExpLayer)
 
     # opencv dnn加载
     import numpy as np
