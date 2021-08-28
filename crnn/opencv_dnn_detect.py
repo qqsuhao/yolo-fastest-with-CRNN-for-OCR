@@ -6,12 +6,12 @@ import numpy as np
 import cv2
 
 
-def text_detect(img):
+def text_detect(img, TEXT_PROPOSALS_MIN_SCORE):
     if yoloWeights.endswith("onnx"):
         textNet = cv2.dnn.readNetFromONNX(yoloWeights)
     else:
         textNet  = cv2.dnn.readNetFromDarknet(yoloCfg, yoloWeights)##文字定位
-    thresh = 0.1
+    thresh = TEXT_PROPOSALS_MIN_SCORE
     img_height,img_width = img.shape[:2]
     inputBlob = cv2.dnn.blobFromImage(img, scalefactor=1.0, size=IMGSIZE,swapRB=True ,crop=False);
     textNet.setInput(inputBlob/255.0)

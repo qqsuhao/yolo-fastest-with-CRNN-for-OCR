@@ -39,7 +39,7 @@ def text_detect(img,
                 TEXT_PROPOSALS_NMS_THRESH=0.3,
                 TEXT_LINE_NMS_THRESH = 0.3,
                 ):
-    boxes, scores = detect.text_detect(np.array(img))
+    boxes, scores = detect.text_detect(np.array(img), TEXT_PROPOSALS_MIN_SCORE)
     boxes = np.array(boxes,dtype=np.float32)
     scores = np.array(scores,dtype=np.float32)
     textdetector = TextDetector(MAX_HORIZONTAL_GAP,MIN_V_OVERLAPS,MIN_SIZE_SIM)    # * 这里的代码应该是使用文本线构造法进行同行合并

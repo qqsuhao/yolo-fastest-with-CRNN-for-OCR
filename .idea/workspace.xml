@@ -3,30 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="78960c3d-3ba7-40a5-bd7f-b0d11aa67dc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apphelper/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/apphelper/image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crnn/detector/text_proposal_graph_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/detector/text_proposal_graph_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crnn/opencv_dnn_detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/crnn/opencv_dnn_detect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2021_08_25__18_56_18/events.out.tfevents.1629888978.suhao-System-Product-Name.14368.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/Toonnx.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/Toonnx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/checkpoints/yolov3_ckpt_0.pth" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/checkpoints/yolov3_ckpt_0.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/data/text.names" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/data/text.names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/detect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/models/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/models/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/models/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/models/yolo-fastest-xl.onnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/output/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/output/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolo/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
